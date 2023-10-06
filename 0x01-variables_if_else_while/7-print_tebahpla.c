@@ -11,7 +11,9 @@ int main(void)
 		int er;
 
 		for (er = 122; er >= 97; er--)
+		{
 				putchar(er);
+		}
 		putchar(10);
 		return (0);
 }

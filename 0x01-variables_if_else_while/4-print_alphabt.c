@@ -13,7 +13,9 @@ int main(void)
 		for (er = 97; er <=122; er++)
 		{
 				if (er != 'e' && er != 'q')
+				{
 						putchar(er);
+				}
 		}
 		putchar(10);
 		return (0);
