@@ -15,8 +15,8 @@ int main(void)
 		putchar(er);
 		if (er != 57)
 		{
-		    putchar(',');
-		    putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar(10);
