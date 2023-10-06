@@ -8,12 +8,12 @@
 
 int main(void)
 {
-		int er;
+	int er;
 
-		for (er = 48; er <= 57; er++)
-		{
-				putchar(er);
-		}
-		putchar(10);
-		return (0);
+	for (er = 48; er <= 57; er++)
+	{
+		putchar(er);
+	}
+	putchar(10);
+	return (0);
 }

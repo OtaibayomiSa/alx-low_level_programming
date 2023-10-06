@@ -8,16 +8,16 @@
 
 int main(void)
 {
-		char er;
+	char er;
 
-		for (er = 97; er <= 122; er++)
-		{
-				putchar(er);
-		}
-		for (er = 65; er <=90; er++)
-		{
-				putchar(er);
-		}
-		putchar(10);
-		return (0);
+	for (er = 97; er <= 122; er++)
+	{
+		putchar(er);
+	}
+	for (er = 65; er <= 90; er++)
+	{
+		putchar(er);
+	}
+	putchar(10);
+	return (0);
 }

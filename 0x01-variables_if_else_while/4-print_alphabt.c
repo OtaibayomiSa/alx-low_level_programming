@@ -8,15 +8,15 @@
 
 int main(void)
 {
-		char er;
+	char er;
 
-		for (er = 97; er <=122; er++)
+	for (er = 97; er <= 122; er++)
+	{
+		if (er != 'e' && er != 'q')
 		{
-				if (er != 'e' && er != 'q')
-				{
-						putchar(er);
-				}
+			putchar(er);
 		}
-		putchar(10);
-		return (0);
+	}
+	putchar(10);
+	return (0);
 }
