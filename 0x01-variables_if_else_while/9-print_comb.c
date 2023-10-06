@@ -13,8 +13,11 @@ int main(void)
 	for (er = 48; er <= 57; er++)
 	{
 		putchar(er);
-		putchar(',');
-		putchar(' ');
+		if (er != 57)
+		{
+		    putchar(',');
+		    putchar(' ');
+		}
 	}
 	putchar(10);
 	return (0);
