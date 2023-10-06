@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <stdio.h
 
 /**
  * main - printing a random value of the value n
