@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h
+#include <stdio.h>
 
 /**
  * main - printing a random value of the value n
@@ -18,11 +18,11 @@ int main(void)
 	{
 		printf("%i is positive\n", n);
 	}
-	else if (n == 0)
+	if (n == 0)
 	{
 		printf("%i is zero\n", n);
 	}
-	else
+	if (n < 0) 
 	{
 		printf("%i is negative\n", n);
 	}
